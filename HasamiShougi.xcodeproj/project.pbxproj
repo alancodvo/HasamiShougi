@@ -15,6 +15,7 @@
 		E765C07E1A85A95700E63690 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E765C07C1A85A95700E63690 /* LaunchScreen.xib */; };
 		E765C08A1A85A95700E63690 /* HasamiShougiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C0891A85A95700E63690 /* HasamiShougiTests.swift */; };
 		E765C0941A85AC5D00E63690 /* ban.png in Resources */ = {isa = PBXBuildFile; fileRef = E765C0931A85AC5D00E63690 /* ban.png */; };
+		E7AFB9E01A85B9C0000F446B /* koma_ho_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = E7AFB9DF1A85B9C0000F446B /* koma_ho_hover.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E765C0881A85A95700E63690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E765C0891A85A95700E63690 /* HasamiShougiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasamiShougiTests.swift; sourceTree = "<group>"; };
 		E765C0931A85AC5D00E63690 /* ban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ban.png; sourceTree = "<group>"; };
+		E7AFB9DF1A85B9C0000F446B /* koma_ho_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koma_ho_hover.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		E765C06D1A85A95700E63690 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E7AFB9DF1A85B9C0000F446B /* koma_ho_hover.png */,
 				E765C0931A85AC5D00E63690 /* ban.png */,
 				E765C06E1A85A95700E63690 /* Info.plist */,
 			);
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E765C0941A85AC5D00E63690 /* ban.png in Resources */,
+				E7AFB9E01A85B9C0000F446B /* koma_ho_hover.png in Resources */,
 				E765C07E1A85A95700E63690 /* LaunchScreen.xib in Resources */,
 				E765C07B1A85A95700E63690 /* Images.xcassets in Resources */,
 				E765C0791A85A95700E63690 /* Main.storyboard in Resources */,
@@ -413,6 +417,7 @@
 				E765C08F1A85A95700E63690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E765C0901A85A95700E63690 /* Build configuration list for PBXNativeTarget "HasamiShougiTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				E765C0921A85A95700E63690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
