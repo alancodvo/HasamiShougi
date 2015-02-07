@@ -14,19 +14,19 @@ class GameScene: SKScene {
         /* Called before each frame is rendered */
     }
     
-    required init(coder aDecoder: NSCoder) {
-        fatalError("NSCoder not supported")
-    }
-    
-    override init(size: CGSize) {
-        super.init(size: size)
-        
-        anchorPoint = CGPoint(x: 0, y: 0)
-        
-        let background = SKSpriteNode(imageNamed: "ban")
-        background.size = CGSizeMake(370, 370)
-        background.position = CGPoint(x: 0, y: 100)
-        background.anchorPoint = CGPoint(x: 0, y: 0)
-        addChild(background)
-    }
+//    required init(coder aDecoder: NSCoder) {
+//        fatalError("NSCoder not supported")
+//    }
+//    
+//    override init(size: CGSize) {
+//        super.init(size: size)
+//        
+//        anchorPoint = CGPoint(x: 0, y: 0)
+//        
+//        let background = SKSpriteNode(imageNamed: "ban")
+//        background.size = CGSizeMake(370, 370)
+//        background.position = CGPoint(x: 0, y: 160)
+//        background.anchorPoint = CGPoint(x: 0, y: 0)
+//        addChild(background)
+//    }
 }

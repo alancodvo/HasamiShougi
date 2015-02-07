@@ -27,18 +27,18 @@ extension SKNode {
 
 class GameViewController: UIViewController {
     
-    var scene: GameScene!
+//    var scene: GameScene!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let skView = view as SKView
-        skView.multipleTouchEnabled = false
-        
-        scene = GameScene(size: skView.bounds.size)
-        scene.scaleMode = .AspectFit
-        
-        skView.presentScene(scene)
+//        let skView = view as SKView
+//        skView.multipleTouchEnabled = false
+//        
+//        scene = GameScene(size: skView.bounds.size)
+//        scene.scaleMode = .AspectFit
+//        
+//        skView.presentScene(scene)
     }
 
     override func prefersStatusBarHidden() -> Bool {
