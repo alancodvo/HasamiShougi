@@ -17,6 +17,21 @@ class GameScene: SKScene {
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
         self.addChild(myLabel)
+        
+        required init(coder aDecoder: NSCoder) {
+            fatalError("NSCoder not supported")
+        }
+        
+        override init(size: CGSize) {
+            super.init(size: size)
+            
+            anchorPoint = CGPoint(x: 0, y: 0)
+            
+            let background = SKSpriteNode(imageNamed: "ban")
+            background.position = CGPoint(x: 0, y: 0)
+            background.anchorPoint = CGPoint(x: 0, y: 0)
+            addChild(background)
+        }
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {

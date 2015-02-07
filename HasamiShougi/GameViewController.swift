@@ -26,9 +26,18 @@ extension SKNode {
 }
 
 class GameViewController: UIViewController {
+    
+    var scene: GameScene!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let skView = view as SKView
+        skView.multipleTouchEnabled = false
+        
+        scene = GameScene(size: skView.bounds.size)
+        scene.scaleMode = .AspectFill
+        skView.presentScene(scene)
 
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
             // Configure the view.

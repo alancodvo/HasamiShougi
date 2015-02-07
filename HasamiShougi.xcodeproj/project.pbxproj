@@ -15,6 +15,7 @@
 		E765C07B1A85A95700E63690 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E765C07A1A85A95700E63690 /* Images.xcassets */; };
 		E765C07E1A85A95700E63690 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E765C07C1A85A95700E63690 /* LaunchScreen.xib */; };
 		E765C08A1A85A95700E63690 /* HasamiShougiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C0891A85A95700E63690 /* HasamiShougiTests.swift */; };
+		E765C0941A85AC5D00E63690 /* ban.png in Resources */ = {isa = PBXBuildFile; fileRef = E765C0931A85AC5D00E63690 /* ban.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E765C0831A85A95700E63690 /* HasamiShougiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HasamiShougiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E765C0881A85A95700E63690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E765C0891A85A95700E63690 /* HasamiShougiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasamiShougiTests.swift; sourceTree = "<group>"; };
+		E765C0931A85AC5D00E63690 /* ban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ban.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		E765C06D1A85A95700E63690 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E765C0931A85AC5D00E63690 /* ban.png */,
 				E765C06E1A85A95700E63690 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E765C0941A85AC5D00E63690 /* ban.png in Resources */,
 				E765C07E1A85A95700E63690 /* LaunchScreen.xib in Resources */,
 				E765C07B1A85A95700E63690 /* Images.xcassets in Resources */,
 				E765C0721A85A95700E63690 /* GameScene.sks in Resources */,
