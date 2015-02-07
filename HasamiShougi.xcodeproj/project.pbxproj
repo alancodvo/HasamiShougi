@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70C5FF71A85C85F005DB4CF /* koma_to_hover_r.png in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FF61A85C85F005DB4CF /* koma_to_hover_r.png */; };
 		E765C0701A85A95700E63690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C06F1A85A95700E63690 /* AppDelegate.swift */; };
 		E765C0741A85A95700E63690 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C0731A85A95700E63690 /* GameScene.swift */; };
 		E765C0761A85A95700E63690 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765C0751A85A95700E63690 /* GameViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E70C5FF61A85C85F005DB4CF /* koma_to_hover_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koma_to_hover_r.png; sourceTree = "<group>"; };
 		E765C06A1A85A95700E63690 /* HasamiShougi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HasamiShougi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E765C06E1A85A95700E63690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E765C06F1A85A95700E63690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		E765C06D1A85A95700E63690 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E70C5FF61A85C85F005DB4CF /* koma_to_hover_r.png */,
 				E7AFB9DF1A85B9C0000F446B /* koma_ho_hover.png */,
 				E765C0931A85AC5D00E63690 /* ban.png */,
 				E765C06E1A85A95700E63690 /* Info.plist */,
@@ -205,6 +208,7 @@
 				E7AFB9E01A85B9C0000F446B /* koma_ho_hover.png in Resources */,
 				E765C07E1A85A95700E63690 /* LaunchScreen.xib in Resources */,
 				E765C07B1A85A95700E63690 /* Images.xcassets in Resources */,
+				E70C5FF71A85C85F005DB4CF /* koma_to_hover_r.png in Resources */,
 				E765C0791A85A95700E63690 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
