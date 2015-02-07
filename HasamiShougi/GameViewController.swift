@@ -36,7 +36,8 @@ class GameViewController: UIViewController {
         skView.multipleTouchEnabled = false
         
         scene = GameScene(size: skView.bounds.size)
-        scene.scaleMode = .AspectFill
+        scene.scaleMode = .AspectFit
+        
         skView.presentScene(scene)
     }
 

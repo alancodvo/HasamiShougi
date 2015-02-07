@@ -24,6 +24,7 @@ class GameScene: SKScene {
         anchorPoint = CGPoint(x: 0, y: 0)
         
         let background = SKSpriteNode(imageNamed: "ban")
+        background.size = CGSizeMake(320, 320)
         background.position = CGPoint(x: 0, y: 0)
         background.anchorPoint = CGPoint(x: 0, y: 0)
         addChild(background)
